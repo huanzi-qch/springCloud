@@ -1,4 +1,4 @@
-#SpringCloud系列Demo代码<br/>
+SpringCloud系列Demo代码<br/>
 
 SpringCloud的Demo代码包括了一下分布式的基本组件，具体请看博客、代码<br/>
 
@@ -22,7 +22,7 @@ SpringCloud代码跟之前写博客时有所改动，现在的项目命名更加
 改动后测试例子：<br/>
 
 eureka注册<br/>
-![image](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709170203512-1989174003.png) 
+![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709170203512-1989174003.png) 
 
 sso单点登录<br/> 
 ![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709170008526-1381439397.gif) 
