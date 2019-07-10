@@ -20,7 +20,7 @@ SpringCloud的Demo代码包括了一下分布式的基本组件，具体请看�
 SpringCloud代码跟之前写博客时有所改动，现在的项目命名更加规范，比较利于理解<br/>
 
 改动后测试例子：<br/>
-PS：由于图片是引入我博客里面的图片，有时会出现显示不出来的问题，可以直接前往博客-->点击目录：SpringCloud系列，即可查看效果图[我把代码开源到GitHub、码云了](https://www.cnblogs.com/huanzi-qch/p/11159140.html)
+PS：由于图片是引入我博客里面的图片，有时会出现显示不出来的问题，可以直接前往[博客](https://www.cnblogs.com/huanzi-qch/p/11159140.html)-->点击目录：SpringCloud系列，即可查看效果图
 
 eureka注册<br/>
 ![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709170203512-1989174003.png) 
