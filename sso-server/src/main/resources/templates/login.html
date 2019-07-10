@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <form action="/sso-server/sso/login" method="post">
+        <input name="url" type="hidden" th:value="${url}"/>
+        用户名：<input name="username" type="text"/>
+        密码：<input name="password" type="text"/>
+        <input value="登录" type="submit"/>
+    </form>
+</body>
+</html>
