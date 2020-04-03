@@ -48,3 +48,12 @@ txlcn分布式事务<br/>
 ![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709165402681-578160074.png) ![](https://img2018.cnblogs.com/blog/1353055/201907/1353055-20190709165422311-1515700953.png) 
 
 具体介绍请看我的博客[《SpringCloud系列》](https://www.cnblogs.com/huanzi-qch/category/1364332.html)<br/> 
+
+捐献<br/>
+请注意，作者五行缺钱，如果喜欢这个项目，请随意打赏！
+
+支付宝<br/>
+![](https://files.cnblogs.com/files/huanzi-qch/1540353568326.bmp) 
+
+微信<br/>
+![](https://files.cnblogs.com/files/huanzi-qch/1540353592438.bmp) 
