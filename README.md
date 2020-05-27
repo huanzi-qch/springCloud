@@ -49,6 +49,12 @@ txlcn分布式事务<br/>
 
 具体介绍请看我的博客[《SpringCloud系列》](https://www.cnblogs.com/huanzi-qch/category/1364332.html)<br/> 
 
+QQ群<br/>
+有事请加群，有问题进群大家一起交流！
+QQ群名：Java交流群-huanzi-qch
+QQ群号：1015379123
+![](https://files-cdn.cnblogs.com/files/huanzi-qch/QQ.bmp) 
+
 捐献<br/>
 请注意，作者五行缺钱，如果喜欢这个项目，请随意打赏！
 
