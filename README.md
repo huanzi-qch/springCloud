@@ -137,12 +137,12 @@ txlcn分布式事务<br/>
 
 | 项目 | 博客 |
 |  ----  | ----  |
-| config-server | [SpringCloud系列——Config 配置中心](https://www.cnblogs.com/huanzi-qch/p/10149547.html)，[SpringCloud系列——Bus 消息总线](https://www.cnblogs.com/huanzi-qch/p/10155091.html) |
+| config-server | [SpringCloud系列——Config 配置中心](https://www.cnblogs.com/huanzi-qch/p/10149547.html) <br/> [SpringCloud系列——Bus 消息总线](https://www.cnblogs.com/huanzi-qch/p/10155091.html) |
 | eureka-server | [SpringCloud系列——Eureka 服务注册与发现](https://www.cnblogs.com/huanzi-qch/p/10131985.html) |
 | sso-server | [SpringCloud系列——SSO 单点登录](https://www.cnblogs.com/huanzi-qch/p/10249227.html) |
 | txlcn-tm | [SpringCloud系列——TX-LCN分布式事务管理](https://www.cnblogs.com/huanzi-qch/p/11057974.html) |
 | zuul-server | [SpringCloud系列——Zuul 动态路由](https://www.cnblogs.com/huanzi-qch/p/10142395.html) |
-| server-a，server-b1/b2，server-c | [SpringCloud系列——Feign 服务调用](https://www.cnblogs.com/huanzi-qch/p/10135946.html) |
+| server-a <br/> server-b1/b2 <br/> server-c | [SpringCloud系列——Feign 服务调用](https://www.cnblogs.com/huanzi-qch/p/10135946.html) |
 | server-b1/b2 | [SpringCloud系列——Ribbon 负载均衡](https://www.cnblogs.com/huanzi-qch/p/10136254.html) |
 
 ## QQ群<br/>
