@@ -9,6 +9,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <!--  父类继承spring-boot-starter-parent  -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
