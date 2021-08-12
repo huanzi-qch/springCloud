@@ -1,2 +1,2 @@
-#ÆôÓÃÎÒÃÇµÄ×Ô¶¨Òå»·¾³´¦ÀíÀà
+#å¯ç”¨æˆ‘ä»¬çš„è‡ªå®šä¹‰ç¯å¢ƒå¤„ç†ç±»
 org.springframework.boot.env.EnvironmentPostProcessor=cn.huanzi.qch.servicea.MyEnvironmentPostProcessor
