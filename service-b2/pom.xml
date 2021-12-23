@@ -57,6 +57,12 @@
             <artifactId>txlcn-txmsg-netty</artifactId>
             <version>5.0.2.RELEASE</version>
         </dependency>
+
+        <!-- 分布式链路追踪 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

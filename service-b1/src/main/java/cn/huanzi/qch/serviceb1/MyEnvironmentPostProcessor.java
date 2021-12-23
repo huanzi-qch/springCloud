@@ -27,7 +27,8 @@ public class MyEnvironmentPostProcessor implements EnvironmentPostProcessor {
                 "datasource.properties",
                 "config.properties",
                 "tx-lcn.properties",
-                "feign.properties"
+                "feign.properties",
+                "zipkin.properties"
         };
 
         //循环添加

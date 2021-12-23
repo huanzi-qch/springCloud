@@ -37,7 +37,7 @@ public class ServiceB1Application {
 class RibbonConfig {
 
     @Bean
-    public IRule myRibbonRule(){
+    public IRule ribbonRule(){
         return new RandomRule(); //分配策略：随机选择一个server
 //        return new BestAvailableRule(); //分配策略：选择一个最小的并发请求的server，逐个考察Server，如果Server被tripped了，则忽略
 //        return new RoundRobinRule(); //分配策略：轮询选择，轮询index，选择index对应位置的server

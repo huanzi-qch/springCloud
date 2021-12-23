@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.huanzi.qch.zipkin</groupId>
+    <artifactId>zipkin-server</artifactId>
+    <version>0.0.1</version>
+    <name>zipkin-server</name>
+    <description>分布式链路追踪</description>
+
+    <!--继承信息-->
+    <parent>
+        <groupId>cn.huanzi.qch</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <dependencies>
+        <!-- eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- zipkin -->
+        <!--
+            从 2.12.6 版本开始有个较大的更新，迁移使用 Armeria HTTP 引擎。从此版本开始，若直接添加依赖的 Spring Boot 应用启动会存在冲突
+            2.12.5，会使用默认8080
+        -->
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+            <version>2.12.3</version>
+            <!-- 引入zipkin-server包时idea报错Exception in thread "main" java.lang.StackOverflowError -->
+            <exclusions>
+                <exclusion>
+                    <artifactId>log4j-slf4j-impl</artifactId>
+                    <groupId>org.apache.logging.log4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+            <version>2.12.3</version>
+        </dependency>
+    </dependencies>
+</project>

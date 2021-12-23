@@ -25,7 +25,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 public class AccessFilter extends ZuulFilter {
 
     //令牌桶限流：峰值每秒可以处理10个请求，正常每秒可以处理3个请求
-    private RateLimiter rateLimiter = new RateLimiter(2, 1);
+    private static final RateLimiter rateLimiter = new RateLimiter(10, 2);
 
     @Autowired
     private SsoFeign ssoFeign;
@@ -125,7 +125,8 @@ public class AccessFilter extends ZuulFilter {
 
             try {
                 //重定向到登录页面
-                response.sendRedirect("http://localhost:10010/sso-server/sso/loginPage?url=" + url);
+                //这里的ip/域名设置很重要，涉及到登录成功后设置accessToken的cookie的域
+                response.sendRedirect("http://"+request.getServerName()+":10010/sso-server/sso/loginPage?url=" + url);
             } catch (IOException e) {
                 e.printStackTrace();
             }

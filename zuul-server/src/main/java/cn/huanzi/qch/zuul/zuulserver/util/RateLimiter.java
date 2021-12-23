@@ -1,6 +1,5 @@
 package cn.huanzi.qch.zuul.zuulserver.util;
 
-import java.util.Scanner;
 
 /**
  * 简单的令牌桶限流
