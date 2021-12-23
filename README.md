@@ -142,6 +142,7 @@ txlcn分布式事务<br/>
 | sso-server | [SpringCloud系列——SSO 单点登录](https://www.cnblogs.com/huanzi-qch/p/10249227.html) |
 | txlcn-tm | [SpringCloud系列——TX-LCN分布式事务管理](https://www.cnblogs.com/huanzi-qch/p/11057974.html) |
 | zuul-server | [SpringCloud系列——Zuul 动态路由](https://www.cnblogs.com/huanzi-qch/p/10142395.html) |
+| zipkin-server | [SpringCloud系列——分布式链路追踪](https://www.cnblogs.com/huanzi-qch/p/15723783.html) |
 | server-a <br/> server-b1/b2 <br/> server-c | [SpringCloud系列——Feign 服务调用](https://www.cnblogs.com/huanzi-qch/p/10135946.html) |
 | server-b1/b2 | [SpringCloud系列——Ribbon 负载均衡](https://www.cnblogs.com/huanzi-qch/p/10136254.html) |
 
@@ -153,15 +154,11 @@ QQ群号：1015379123
 <br/>注：如果图片加载不出来请点击查看[这里](http://huanzi-qch.gitee.io/file-server/images/qq.png)
 
 ## 捐献<br/>
-请注意，作者五行缺钱，如果喜欢这个项目，请随意打赏！
+相应的资金支持能更好的持续项目的维护和开发，如果喜欢这个项目，请随意打赏！
 
-支付宝<br/>
-![](http://huanzi-qch.gitee.io/file-server/images/zhifubao.png) 
-<br/>注：如果图片加载不出来请点击查看[这里](http://huanzi-qch.gitee.io/file-server/images/zhifubao.png) 
-
-微信<br/>
-![](http://huanzi-qch.gitee.io/file-server/images/weixin.png) 
-<br/>注：如果图片加载不出来请点击查看[这里](http://huanzi-qch.gitee.io/file-server/images/weixin.png) 
+| 支付宝 | 微信 |
+|  ----  | ----  |
+| <img src="http://huanzi-qch.gitee.io/file-server/images/zhifubao.png"  width="150"> | <img src="http://huanzi-qch.gitee.io/file-server/images/weixin.png" width="150"> |
 
 ## 学习资料<br/>
 Spring全家桶的GitHub：https://github.com/spring-projects <br/>
