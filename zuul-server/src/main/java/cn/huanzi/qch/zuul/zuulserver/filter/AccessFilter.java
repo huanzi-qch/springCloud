@@ -5,6 +5,7 @@ import cn.huanzi.qch.zuul.zuulserver.util.RateLimiter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.Cookie;
@@ -22,6 +23,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 /**
  * Zuul过滤器，实现了路由检查
  */
+@Component
 public class AccessFilter extends ZuulFilter {
 
     //令牌桶限流：峰值每秒可以处理10个请求，正常每秒可以处理3个请求
