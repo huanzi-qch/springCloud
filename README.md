@@ -1,5 +1,5 @@
 ## 官网<br/> 
-http://huanzi.qzz.io/spring-cloud <br/>
+https://huanzi-qch.github.io/spring-cloud <br/>
 
 ## 简介<br/> 
 SpringCloud系列Demo代码<br/>
@@ -149,21 +149,21 @@ txlcn分布式事务<br/>
 | server-a <br/> server-b1/b2 <br/> server-c | [SpringCloud系列——Feign 服务调用](https://www.cnblogs.com/huanzi-qch/p/10135946.html) |
 | server-b1/b2 | [SpringCloud系列——Ribbon 负载均衡](https://www.cnblogs.com/huanzi-qch/p/10136254.html) |
 
-## [AD广告位](http://huanzi.qzz.io/file-server/ad/adservice.html) （长期招租，如有需要请私信）<br/>
+## [AD广告位](https://huanzi-qch.github.io/file-server/ad/adservice.html) （长期招租，如有需要请私信）<br/>
 [【阿里云】阿里云最全的优惠活动聚集地！](https://www.aliyun.com/activity?userCode=ckkryd9h) <br/>
 [【腾讯云】腾讯云当前最新优惠活动专区！](https://cloud.tencent.com/act/cps/redirect?redirect=11447&cps_key=e1c9db729edccd479fc902634492bf53) <br/>
 <br/>
 
 ## 交流群<br/>
 有事请加群，有问题进群大家一起交流！<br/>
-<img src="https://huanzi.qzz.io/file-server/images/qq.png"  width="600">
+<img src="https://huanzi-qch.github.io/file-server/images/qq.png"  width="600">
 
 ## 捐献<br/>
 相应的资金支持能更好的持续项目的维护和开发，如果喜欢这个项目，请随意打赏！
 
 | 支付宝 | 微信 |
 |  ----  | ----  |
-| <img src="https://huanzi.qzz.io/file-server/images/zhifubao.png"  width="150"> | <img src="https://huanzi.qzz.io/file-server/images/weixin.png" width="150"> |
+| <img src="https://huanzi-qch.github.io/file-server/images/zhifubao.png"  width="150"> | <img src="https://huanzi-qch.github.io/file-server/images/weixin.png" width="150"> |
 
 
 ## 学习资料<br/>
